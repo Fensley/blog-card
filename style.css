@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(186, 189, 186);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+
+}
+.card{
+    padding: 10px;
+    display: flex;
+    gap: 25px;
+}
+.each{
+    display: flex;
+    flex-direction: column;
+   border-radius: 5px;
+    height: 500px;
+    width: 250px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+article{
+    font-size: 13px;
+    padding: 15px;
+    margin-top: -30px;
+}
+.how{
+    text-align: center;
+     font-size: 25px;
+    color: rgb(184, 62, 62);
+}
+h5{
+    color: gray;
+}
+.mana{
+
+    left: 70px;
+    top: -30px;
+    position: relative;
+    /* border: 1px solid; */
+    display: flex;
+    width: 190px;
+}
+span{
+    font-weight: 600;
+    left: -53px;
+    position: relative;
+
+}
+.footimg{
+    image-rendering: pixelated;
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 13px;
+    left: 15px;
+}
+hr{
+    height: 0.1px;
+    width: 80%;
+  border: 0;
+  border-top: 1px solid #e0dddd;
+
+}
+.second::after{
+    content: "NEW ";
+    background-color: rgb(236, 96, 96);
+    /* color: white; */
+    width: 16%;
+    color: white;
+    position: relative;
+    bottom: 556px;
+    border-radius: 5px;
+    left: 10px;
+    padding: 2px;
+    cursor: pointer;
+}
